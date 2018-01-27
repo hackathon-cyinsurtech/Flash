@@ -49,8 +49,9 @@ public class MainActivity extends AppCompatActivity {
             tv.setText("File saved on internal storage!");
             tv.setText("File saved on internal storage!");
             tv.setText("File saved on internal storage!");
+            tv.setText("File saved on internal storage!");
         }
-
+              //Store data from the user to text file.
         private void saveData() {
             try {
                 File file = new File(getFilesDir(), filename);
