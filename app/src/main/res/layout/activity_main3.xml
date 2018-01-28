@@ -4,11 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/capt"
     android:paddingBottom="16dp"
     android:paddingLeft="64dp"
     android:paddingRight="64dp"
-    android:background="@drawable/back3"
     android:paddingTop="16dp"
     tools:context="com.example.neokl.healthcare.Main3Activity">
 
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:onClick="MoreInfo"
+        android:layout_alignParentTop="true"
+        android:text="More Info" />
 </RelativeLayout>
